@@ -1,6 +1,6 @@
 SyntaxTree Description:
     Input:                Expression
-    Output:               Syntax Tree
+    Output:               Syntax Tree in postfix traversal
     DataStructure used :  Tree 
     Example:
                  input :         1+2*3
