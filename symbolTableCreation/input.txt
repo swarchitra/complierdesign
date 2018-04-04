@@ -1,0 +1,4 @@
+{int a;}
+{int c; char d,e,f;}
+{double x;}
+int call(int a);
