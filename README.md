@@ -19,15 +19,17 @@ To install yacc:
 Both these tools are mandatory for the execution of the programs.
 
 The lex file is stored using  ".l" extension
+
 The yacc file is stored using ".y" extension
+
 Each subfolder consists of a lex file, yacc file, c files(optional),input files and output files.
 
 How to compile and execute the code???
 
-  1) compile the lex file -------> lex file_name.l
+  1) compile the lex file ----> lex file_name.l
   
-  2) compile the yacc file ------>  yacc -d filename.y
+  2) compile the yacc file --->  yacc -d filename.y
   
-  3) Type the command ------------> gcc lex.yy.c y.tab.c -ll -ly
+  3) Type the command ------- > gcc lex.yy.c y.tab.c -ll -ly
   
-  4) Run using the command---------> ./a.out
+  4) Run using the command----> ./a.out
