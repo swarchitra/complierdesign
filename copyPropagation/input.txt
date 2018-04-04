@@ -1,0 +1,6 @@
+a=b
+c=a
+d=c
+d=e
+f=d
+END
