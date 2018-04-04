@@ -1,6 +1,6 @@
 %{
 	#include<stdio.h>
-	#include"arith.c"
+	#include"label_tree.c"
 	void yyerror(const char* s);	
 	int yylex(void);
 	extern FILE* yyin;
@@ -52,7 +52,7 @@ void yyerror(const char* s){
 }
 int main(){
 	while(1){
-        //yyin = fopen("arithIp.txt","r");
+        //yyin = fopen("input.txt","r");
 		yyparse();
 		labelTree(root);
 		postOrder(root);
